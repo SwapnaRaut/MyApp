@@ -35,7 +35,7 @@ pipeline{
                                 steps{
 
                                         echo "Deploy index.html on httpd Server"
-                                        sh "sudo cp -r /mnt/slave1/workspace/MyApp_master/index.html /var/www/html/"
+                                        sh "sudo cp -r /mnt/slave1/workspace/MyApp_22Q3/index.html /var/www/html/"
 					sh "sudo chmod -R 777 /var/www/html/"
                                     }
                         }
